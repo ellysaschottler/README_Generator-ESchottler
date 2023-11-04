@@ -103,7 +103,7 @@ const generateMarkdown = ({projectTitle, description, installation, usage, scree
  
  ${usage}
 
- ${screenshot}
+ ![Screenshot](${screenshot})
  
  ## Contributing
  

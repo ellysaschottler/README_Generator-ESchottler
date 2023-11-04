@@ -61,7 +61,7 @@ const questions = [
             "BSD 3-Clause", 
             "Boost Software License 1.0", 
             "Creative Commons Zero v1.0 Universal",
-            "Eclipse PUblic License 2.0"
+            "Eclipse Public License 2.0"
             ]
     }
 ];
@@ -76,3 +76,49 @@ function init() {}
 
 // Function call to initialize app
 init();
+
+
+const generateMarkdown = ({projectTitle, description, installation, usage, screenshot, contributing, tests, questionsEmail, questionsGitHub, license}) =>
+ `
+ # ${projectTitle}
+
+ ## Description
+ 
+ ${description}
+ 
+ ## Table of Contents
+ 
+ - [Installation](#installation)
+ - [Usage](#usage)
+ - [Contributing](#contributing)
+ - [Tests](#tests)
+ - [Questions](#questions)
+ - [License](#license)
+ 
+ ## Installation
+ 
+ ${installation}
+ 
+ ## Usage
+ 
+ ${usage}
+
+ ${screenshot}
+ 
+ ## Contributing
+ 
+ ${contributing}
+ 
+ ## Tests
+ 
+ ${tests}
+ 
+ ## Questions
+ 
+ If you have any questions about this application, please reach me at ${questionsEmail}.  You can also find my GitHub profile at ${questionsGitHub}
+ 
+ ## License
+ 
+ ${license}
+
+ `;

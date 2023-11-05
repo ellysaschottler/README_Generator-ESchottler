@@ -78,3 +78,18 @@ If you have any questions about this application, please reach me at <questionsE
 ## License
 
 <license>
+
+
+<!-- 
+test inputs
+ projectTitle = "TestProject"
+ description = "This is a test project to see if the README Generator Code is working"
+ installation = "Install this at your own risk"
+ usage = "This is for creating a README for your project"
+ screenshot = "/assets/images/screenshot.png"
+ contributing = "This project was created with the starter code from https://github.com/coding-boot-camp/potential-enigma"
+ tests = "There are no tests at this time"
+ questionsEmail = "fakeemail@gmail.com"
+ questionsGitHub = "https://github.com/ellysaschottler"
+ license = "MIT License" 
+ -->

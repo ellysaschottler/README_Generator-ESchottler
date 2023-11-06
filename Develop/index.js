@@ -22,7 +22,7 @@ const questions = [
     {
         type: 'input',
         name: 'usage',
-        message: 'Instruct how to use this project, include screenshots:'
+        message: 'How do you use this project? (usage screenshot prompt coming next)'
     },
     {
         type: 'input',
@@ -63,9 +63,9 @@ const questions = [
             "Boost Software License 1.0", 
             "Creative Commons Zero v1.0 Universal",
             "Eclipse Public License 2.0",
-            "GNU Affero General PUblick License v3.0",
+            "GNU Affero General Publick License v3.0",
             "GNU General Public License v2.0",
-            "GNU Lesser General PUblic License v2.1",
+            "GNU Lesser General Public License v2.1",
             "Mozilla Public LIcense 2.0",
             "The Unlicense"
             ]
@@ -75,25 +75,37 @@ const questions = [
 
 
 // Function to write README file
-
-inquirer.prompt(questions).then((answers) => {
-    console.log(answers)
-    fs.writeFile('README.md', readmePageContent), (err) =>
+function writeToFile(fileName, data){
+    fs.writeFile(fileName, data, (err) =>
     err ? console.log(err) : console.log('Your README has been created!')
-})
-
-
-
-
-// TODO: Create a function to initialize app
-function init() {}
+    );
+}
+    
+//A function to initialize app
+function init() {
+    inquirer.prompt(questions).then((answers) => {
+        const readmePageContent = generateREADMEMarkdown(answers);
+        writeToFile('README1.md', readmePageContent);
+    });
+}
 
 // Function call to initialize app
 init();
 
 
-const generateREADMEMarkdown = ({projectTitle, description, installation, usage, screenshot, contributing, tests, questionsEmail, questionsGitHub, license}) =>
- `
+function generateREADMEMarkdown ({
+    projectTitle, 
+    description, 
+    installation, 
+    usage, 
+    screenshot, 
+    contributing, 
+    tests, 
+    questionsEmail, 
+    questionsGitHub, 
+    license
+}) { 
+        return `
  # ${projectTitle}
  ![The San Juan Mountains are beautiful!](https://img.shields.io/badge/License:-${license}-blue)
 
@@ -139,5 +151,4 @@ const generateREADMEMarkdown = ({projectTitle, description, installation, usage,
 
  `;
 
-
- const readmePageContent = generateREADMEMarkdown(answers)
+    }

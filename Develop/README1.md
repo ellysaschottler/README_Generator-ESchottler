@@ -1,11 +1,11 @@
 
- # demo
- ![The San Juan Mountains are beautiful!](https://img.shields.io/badge/License:-MIT License-blue)
+ # Demo
+ ![MIT License badge](https://img.shields.io/badge/License:-MIT%20License-blue)
 
 
  ## Description
  
- We did lots to solve lots of problems.
+ This project takes user input and creates a README.md with the input.  This solves the problem of rewriting similar code over and over again for all the README files you will need to create.
  
  ## Table of Contents
  
@@ -18,17 +18,17 @@
  
  ## Installation
  
- Go to the terminal and run node.js.  answer the prompts.  Be sure to use a project title appropriate for a file name.
+ To install this application, run ‘npm init -y’ in the terminal. Then run ‘npm i inquirer@8.2.4’ in the terminal.
  
  ## Usage
  
- Run it each time you need a readme for a new project
+ After installation, type “node index.js” in the terminal and answer the prompts. 
 
- ![Screenshot](./assets/image/Screenshot.png)
+ ![Screenshot](./assets/images/Screenshot.png)
  
  ## Contributing
  
- Ellysa SChottler, https://github.com/ellysaschottler
+ Ellysa Schottler - https://github.com/ellysaschottler, Starter code: https://github.com/coding-boot-camp/potential-enigma 
  
  ## Tests
  
@@ -36,10 +36,10 @@
  
  ## Questions
  
- If you have any questions about this application, please reach me at fakeemail.gmail.com.  You can also find my GitHub profile at https://github.com/ellysaschottler
+ If you have any questions about this application, please reach me at fakeemail@gmail.com.  You can also find my GitHub profile at https://github.com/ellysaschottler
  
  ## License
  
- This application is covered under 'MIT License'
+ This application is covered under MIT License
 
  

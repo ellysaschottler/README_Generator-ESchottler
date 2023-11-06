@@ -105,9 +105,10 @@ function generateREADMEMarkdown ({
     questionsGitHub, 
     license
 }) { 
+const encodeLicenseName = license.replace(/ /g, "%20")
         return `
  # ${projectTitle}
- ![The San Juan Mountains are beautiful!](https://img.shields.io/badge/License:-${license}-blue)
+ ![${license} badge](https://img.shields.io/badge/License:-${encodeLicenseName}-blue)
 
 
  ## Description

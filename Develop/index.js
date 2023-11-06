@@ -47,7 +47,7 @@ const questions = [
     {
         type: 'input',
         name: 'questionsGitHub',
-        message: 'Type in your GitHub profile link so that users can contact you with questions:'
+        message: 'Type in your GitHub username so that users can contact you with questions:'
     },
     {
         type: 'list',
@@ -144,7 +144,7 @@ const encodeLicenseName = license.replace(/ /g, "%20")
  
  ## Questions
  
- If you have any questions about this application, please reach me at ${questionsEmail}.  You can also find my GitHub profile at ${questionsGitHub}
+ If you have any questions about this application, please reach me at <${questionsEmail}>.  You can also find my GitHub profile at <https://github.com/${questionsGitHub}>
  
  ## License
  

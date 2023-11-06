@@ -22,13 +22,13 @@
  
  ## Usage
  
- After installation, type “node index.js” in the terminal and answer the prompts. 
+ After installation, type “node index.js” in the terminal and answer the prompts.
 
- ![Screenshot](./assets/images/Screenshot.png)
+ ![Screenshot](./assets/image/Screenshot.png)
  
  ## Contributing
  
- Ellysa Schottler - https://github.com/ellysaschottler, Starter code: https://github.com/coding-boot-camp/potential-enigma 
+ Ellysa Schottler - https://github.com/ellysaschottler, Starter code: https://github.com/coding-boot-camp/potential-enigma
  
  ## Tests
  

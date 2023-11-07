@@ -1,5 +1,5 @@
 
- # Demo
+ # Sample
  ![MIT License badge](https://img.shields.io/badge/License:-MIT%20License-blue)
 
 
@@ -22,13 +22,13 @@
  
  ## Usage
  
- After installation, type “node index.js” in the terminal and answer the prompts.
+ After installation, type “node index.js” in the terminal and answer the prompts. 
 
- ![Screenshot](./assets/image/Screenshot.png)
+ ![Screenshot](./assets/image/Screenshot2.png)
  
  ## Contributing
  
- Ellysa Schottler - https://github.com/ellysaschottler, Starter code: https://github.com/coding-boot-camp/potential-enigma
+ Ellysa Schottler - https://github.com/ellysaschottler, Starter code: https://github.com/coding-boot-camp/potential-enigma 
  
  ## Tests
  
@@ -36,7 +36,7 @@
  
  ## Questions
  
- If you have any questions about this application, please reach me at fakeemail@gmail.com.  You can also find my GitHub profile at https://github.com/ellysaschottler
+ If you have any questions about this application, please reach me at <fakeemail@gmail.com>.  You can also find my GitHub profile at <https://github.com/https://github.com/ellysaschottler>
  
  ## License
  

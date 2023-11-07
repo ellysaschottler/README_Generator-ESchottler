@@ -92,7 +92,7 @@ function init() {
 // Function call to initialize app
 init();
 
-
+// Markdown generator
 function generateREADMEMarkdown ({
     projectTitle, 
     description, 

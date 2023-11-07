@@ -24,7 +24,7 @@
  
  After installation, type “node index.js” in the terminal and answer the prompts. 
 
- ![Screenshot](./assets/image/Screenshot2.png)
+ ![Screenshot](./image/Screenshot2.png)
  
  ## Contributing
  

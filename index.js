@@ -85,7 +85,7 @@ function writeToFile(fileName, data){
 function init() {
     inquirer.prompt(questions).then((answers) => {
         const readmePageContent = generateREADMEMarkdown(answers);
-        writeToFile('README1.md', readmePageContent);
+        writeToFile('README.md', readmePageContent);
     });
 }
 

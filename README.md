@@ -22,7 +22,8 @@
  
  ## Usage
  
- After installation, type “node index.js” in the terminal and answer the prompts. 
+ After installation, type “node index.js” in the terminal and answer the prompts. <br>
+ Walkthrough video:  https://drive.google.com/file/d/1poIS6kUI4m2YI3kMr8CiD4JnwnlU0vKM/view
 
  ![Screenshot](./image/Screenshot2.png)
  

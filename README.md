@@ -18,7 +18,7 @@
  
  ## Installation
  
- To install this application, run ‘npm init -y’ in the terminal. Then run ‘npm i inquirer@8.2.4’ in the terminal.
+ To install this application, run "npm i" in the terminal.
  
  ## Usage
  
